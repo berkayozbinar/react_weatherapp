@@ -18,6 +18,7 @@ const App = () => {
   const [weatherData, setWeather] = useState(null);
 
   useEffect(() => {
+    /* Girilen city değeri için render yapılarak hava durumu bilgileri çekiliyor. */
     const getWeather = async () => {
       try {
         const response = await axios.get(
@@ -43,7 +44,9 @@ const App = () => {
 
   return (
     <div className="container">
+      {/* city state güncelleniyor. */}
       <City onChange={changeCity} value={city} />
+      {/* Hava durumu bilgileri çeikildikten sonra yeni componentler ekleniyor. */}
       {weatherData && <Data weatherData={weatherData} />}
       <div className="elementContainer">
         {weatherData && (

@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "./App.css";
 
+//Components
 import City from './components/City';
 import Data from './components/Data';
 import Extra from './components/Extra';
 
+//Assets
 import humidity from "./assets/humidity.png";
 import wind from "./assets/wind.png";
 

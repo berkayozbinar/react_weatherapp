@@ -16,7 +16,8 @@ body {
 .topBar {
   display: flex;
   justify-content: center;
-  padding-top: 65px;
+  padding-top: 70px;
+  margin-bottom: 25px;
 }
 
 .topBar input {
@@ -35,7 +36,6 @@ body {
 .image {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
   margin-bottom: 10px;
   height: 120px;
 }
@@ -76,7 +76,7 @@ body {
 .elementContainer {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .element {
@@ -85,7 +85,9 @@ body {
   align-items: flex-start;
 }
 
-.image {
+.icon {
+  display: flex;
+  justify-content: center;
   margin-top: 5px;
 }
 

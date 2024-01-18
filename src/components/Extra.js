@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Extra = ({ image, percent, text }) => {
+const Extra = ({ icon, percent, text }) => {
   return (
     <div className="element">
-      <img src={image} className="image" />
+      <img src={icon} className="icon" />
       <div className="data">
         <div className="percent">{percent}</div>
         <div>{text}</div>
